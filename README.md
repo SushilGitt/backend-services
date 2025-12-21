@@ -15,5 +15,5 @@ Note: I have a similar repository dedicated to [frontend components](https://git
 
 | **S.No.** | **Name** | **Description** | **Source Code** | **Live** |
 | :--| :-- | :-- | :-- | :-- |
-| 2. | Notes App API | APIs for CRUD in "Notes App" | [Code](notes-app-api)| [Live]() |
+| 2. | Notes App API | APIs for CRUD in "Notes App" | [Code](notes-app-api)| [Live](https://notes-app-api-plhe.onrender.com) |
 | 1. | Hello World API | API that returns message "Hello, world!" | [Code](hello-world-api)| [Live](https://backend-services-fhug.onrender.com) |
