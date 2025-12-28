@@ -1,5 +1,6 @@
 import "dotenv/config"
 import express from "express"
+import cors from "cors"
 import type { Application, Request, Response } from "express"
 import connectDB from "./config/mongoDB.js"
 import noteRouter from "./routes/noteRoute.js"
@@ -10,6 +11,7 @@ const port: string = process.env.PORT || "5050"
 const app: Application = express()
 connectDB()
 
+app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
